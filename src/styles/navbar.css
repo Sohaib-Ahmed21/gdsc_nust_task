@@ -1,7 +1,37 @@
 nav {
 	background-color: rgb(163, 224, 224);
-	box-sizing: content-box;
+	position: fixed;
+	width: 100%;
+	box-shadow: 1px 1px 20px rgb(123, 123, 123);
 }
+.nav-item {
+	margin: 8px 10px;
+	padding: 5px 20px;
+	background-color: rgb(125, 190, 190);
+	border-radius: 3px;
+	text-align: center;
+	cursor: pointer;
+	border: 1px solid rgb(7, 98, 98);
+}
+.nav-item:hover {
+	background-color: rgb(91, 180, 180);
+
+}
+.nav-btn {
+	margin: 0px 20px;
+	text-align: center;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
 nav > ul {
 	display: flex;
 }
@@ -9,4 +39,18 @@ nav > ul > li {
 	list-style: none;
 	margin: 5px 10px;
 	padding: 5px 10px;
+}
+.bottomArrow {
+	border: 1px solid grey;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	right: 10px;
+	top: 0px;
+	text-align: center;
+	padding: 2px;
+	margin: 8px;
+	background-color: rgb(193, 238, 248);
+	border: 1px solid blue;
+	cursor: pointer;
 }

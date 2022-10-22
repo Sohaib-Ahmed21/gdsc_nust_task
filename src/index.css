@@ -16,3 +16,20 @@ code {
   margin: 0;
   padding: 0;
 }
+
+/* MY UTILITIES */
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.space-between {
+  justify-content: space-between;
+}
+.items-center {
+  align-items: center;
+}
+
