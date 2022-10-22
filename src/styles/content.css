@@ -1,0 +1,12 @@
+.div-content {
+	background-color: rgb(223, 247, 247);
+	padding: 100px 50px;
+	min-height: 100vh;
+}
+.content-item {
+	margin: 30px 20px;
+	padding: 40px 10px;
+	background-color: rgb(199, 245, 245);
+	border: 1px solid rgb(165, 233, 233);
+	border-radius: 10px;
+}

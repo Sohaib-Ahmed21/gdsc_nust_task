@@ -6,8 +6,6 @@ export const Navbar = () => {
 	const { height, width } = useWindowDimensions();
 	const isPortrait = (width < 786);
 	const [showHidden, setShowHidden] = useState(false);
-	console.log(width)
-	console.log(showHidden)
 	return (
 		<nav className='flex-row space-between items-center'>
 			<div className={isPortrait?'flex-col':'flex-row'}>
