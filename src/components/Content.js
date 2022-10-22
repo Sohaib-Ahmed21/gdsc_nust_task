@@ -12,7 +12,6 @@ export const Content = () => {
 		.then((data) => {
 			console.log(data)
 			set_is_rendered(true);
-			// set_fetched_data(JSON.stringify(data))
 			set_fetched_data(data)
 		});
 	}
@@ -20,7 +19,7 @@ export const Content = () => {
 	// name, tag, url
 
 	return (
-		<div className='div-content' style={{paddingTop: "150px", textAlign: "center"}}>
+		<div className='div-content' style={{paddingTop: "100px", textAlign: "center"}}>
 			<h1>Data Fetched From API</h1>
 			<div>
 				{fetched_data.map((elem, i)=>{
