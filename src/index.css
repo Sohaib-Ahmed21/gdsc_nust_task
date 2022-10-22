@@ -16,6 +16,12 @@ code {
   margin: 0;
   padding: 0;
 }
+:root {
+  --vlight: rgb(187, 223, 255);
+  --light: rgb(187, 223, 255);
+  --medium: rgb(119, 191, 255);
+  --dark: #004bad;
+}
 
 /* MY UTILITIES */
 .flex-col {
